@@ -1,0 +1,6 @@
+@startuml
+(*) --> "Create Company"
+"Create Company" --> "Create Campaign"
+"Create Campaign" --> "Create Gift"
+  -->[Ending process] (*)
+@enduml
