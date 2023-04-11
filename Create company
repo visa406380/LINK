@@ -1,0 +1,7 @@
+@startuml
+(*) --> "Enter admin interface"
+"Enter admin interface" --> "Click 'Add New Company'"
+"Click 'Add New Company'" --> "Enter company name and logo"
+"Enter company name and logo" --> "Save"
+  -->[Ending process] (*)
+@enduml
